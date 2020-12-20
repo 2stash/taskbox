@@ -17,6 +17,7 @@ const store = {
   dispatch: action('dispatch'),
 };
 
+// ....
 export default {
   component: PureInboxScreen,
   decorators: [story => <Provider store={store}>{story()}</Provider>],
